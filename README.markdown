@@ -23,7 +23,7 @@ To install the gem (the preferred way):
 To (optionally) vendor this gem:
 
   1. Add the following entry to config/environment.rb
-        config.gem "openrain-action_mailer_tls", :lib => "smtp_tls.rb", :source => "http://gems.github.com"
+    * config.gem "openrain-action_mailer_tls", :lib => "smtp_tls.rb", :source => "http://gems.github.com"
   2. rake gems:unpack
 
 To install the plugin (the old way):
@@ -38,9 +38,9 @@ Testing it out
 
   1. >> ./script/generate mailer Notifier hello_world
   2. Add the following lines to config/environments/development.rb 
-        config.action_mailer.raise_delivery_errors = true
-        config.action_mailer.perform_deliveries = true
-        config.action_mailer.delivery_method = :smtp
+    * config.action_mailer.raise_delivery_errors = true
+    * config.action_mailer.perform_deliveries = true
+    * config.action_mailer.delivery_method = :smtp
   3. Update the recipients and from fields in app/models/notifier.rb
   4. >> ./script/console 
   5. >> Notifier.deliver_hello_world!
