@@ -50,8 +50,8 @@ Resources
 
 Blog posts
 
-* http://www.rubyinside.com/how-to-use-gmails-smtp-server-with-rails-394.html
-* http://www.prestonlee.com/archives/63
+* [How to use Gmail's SMTP server with Rails](http://www.rubyinside.com/how-to-use-gmails-smtp-server-with-rails-394.html)
+* [Configuring Rails to use Gmail's SMTP server](http://www.prestonlee.com/2007/02/20/configuring-rails-to-use-gmails-smtp-server/63/)
 
 Books
 
@@ -63,7 +63,7 @@ Notes
 If you're running Rails >= 2.2.1 [RC2] and Ruby 1.8.7, you don't need this plugin. Ruby 1.8.7 supports
 SMTP TLS and Rails 2.2.1 ships with an option to enable it if you're running Ruby 1.8.7.
 
-  To set it all up, in config/initializers/smtp_gmail.rb:
+  To set it all up, in config/initializers/smtp_gmail.rb, make sure to set `:enable_starttls_auto` to `true`.
     ActionMailer::Base.smtp_settings = {
       :address => "smtp.gmail.com",
       :port => 587,
