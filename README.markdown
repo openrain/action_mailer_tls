@@ -6,12 +6,12 @@ Background
 
 This Ruby on Rails plugin makes it trivial to send email through a Google Apps for business account.
 
-This gem will only work on Ruby 1.8.6.
+This gem will only work on Ruby 1.8.6. If you're on Ruby 1.8.7 and Rails >= 2.2.1, you don't need this plugin. See Notes below.
+
 
 Installation
 ------------
 
-If you're on Ruby 1.8.7 and Rails >= 2.2.1, you don't need this plugin. See Notes below.
 
 To install the gem (the preferred way):
 
@@ -73,7 +73,7 @@ SMTP TLS and Rails 2.2.1 ships with an option to enable it if you're running Rub
       :password: h@ckme
     }
 
-  http://github.com/rails/rails/commit/732c724df61bc8b780dc42817625b25a321908e4
+For more information on this feature, check out the [commit log][http://github.com/rails/rails/commit/732c724df61bc8b780dc42817625b25a321908e4]
 
 Author
 ------
