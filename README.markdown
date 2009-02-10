@@ -36,7 +36,7 @@ To install the plugin (the old way):
 Testing it out
 --------------
 
-  1. >> ./script/generate mailer Notifier hello_world
+  1. `./script/generate mailer Notifier hello_world`
   2. Add the following lines to config/environments/development.rb 
     * config.action_mailer.raise_delivery_errors = true
     * config.action_mailer.perform_deliveries = true
