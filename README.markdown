@@ -4,10 +4,9 @@ ActionMailerTLS
 Background
 ----------
 
-This Ruby on Rails plugin makes it trivial to send email through a Google Apps for business account.
+This gem makes it trivial to send email through a Gmail account or a Google Apps for business email account.
 
-This gem will only work on Ruby 1.8.6. If you're on Ruby 1.8.7 and Rails >= 2.2.1, you don't need this plugin. See Notes below.
-
+This gem will only work on Ruby 1.8.6. If you're on Ruby 1.8.7 and Rails >= 2.2.1, you don't need this gem. See Notes below.
 
 Installation
 ------------
@@ -55,12 +54,12 @@ Blog posts
 
 Books
 
-* Advanced Rails Recipes pg. 238, Recipe #47.
+* This gem was also featured in Advanced Rails Recipes pg. 238, Recipe #47.
 
 Notes
 -----
 
-If you're running Rails >= 2.2.1 [RC2] and Ruby 1.8.7, you don't need this plugin. Ruby 1.8.7 supports
+If you're running Rails >= 2.2.1 [RC2] and Ruby 1.8.7, you don't need this gem. Ruby 1.8.7 supports
 SMTP TLS and Rails 2.2.1 ships with an option to enable it if you're running Ruby 1.8.7.
 
   To set it all up, in config/initializers/smtp_gmail.rb, make sure to set `:enable_starttls_auto` to `true`.
