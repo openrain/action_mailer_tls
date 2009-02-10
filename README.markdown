@@ -15,8 +15,8 @@ If you're on Ruby 1.8.7 and Rails >= 2.2.1, you don't need this plugin. See Note
 
 To install the gem (the preferred way):
 
-  1. >> sudo gem install openrain-action_mailer_tls -s http://gems.github.com
-  2. >> ./script/generate action_mailer_tls
+  1. `sudo gem install openrain-action_mailer_tls -s http://gems.github.com`
+  2. `./script/generate action_mailer_tls`
   3. Copy RAILS_ROOT/config/smtp_gmail.yml.sample to RAILS_ROOT/config/smtp_gmail.yml
   4. Update the configuration file with your settings
 
@@ -28,7 +28,7 @@ To (optionally) vendor this gem:
 
 To install the plugin (the old way):
 
-  1. >> ./script/plugin install git://github.com/openrain/action_mailer_tls.git -r '1.0.0'
+  1. `./script/plugin install git://github.com/openrain/action_mailer_tls.git -r '1.0.0'`
   2. Copy vendor/plugins/action_mailer_tls/sample/smtp_gmail.rb to config/
   3. Copy vendor/plugins/action_mailer_tls/sample/mailer.yml.sample to config/
   4. Update the configuration file with your settings
@@ -42,8 +42,8 @@ Testing it out
     * config.action_mailer.perform_deliveries = true
     * config.action_mailer.delivery_method = :smtp
   3. Update the recipients and from fields in app/models/notifier.rb
-  4. >> ./script/console 
-  5. >> Notifier.deliver_hello_world!
+  4. `./script/console `
+  5. `Notifier.deliver_hello_world!`
 
 Resources
 ---------
