@@ -73,7 +73,7 @@ SMTP TLS and Rails 2.2.1 ships with an option to enable it if you're running Rub
       :password: h@ckme
     }
 
-For more information on this feature, check out the [commit log][http://github.com/rails/rails/commit/732c724df61bc8b780dc42817625b25a321908e4]
+For more information on this feature, check out the [commit log](http://github.com/rails/rails/commit/732c724df61bc8b780dc42817625b25a321908e4)
 
 Author
 ------
