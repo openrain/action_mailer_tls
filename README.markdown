@@ -78,6 +78,3 @@ Author
 ------
 * Marc Chung - marc [dot] chung [at] openrain [dot] com
 
-License
--------
-* Copyright (c) 2009 OpenRain, LLC. See MIT-LICENSE for details
