@@ -27,7 +27,7 @@ To (optionally) vendor this gem:
 
 To install the plugin (the old way):
 
-  1. `./script/plugin install git://github.com/openrain/action_mailer_tls.git -r '1.0.0'`
+  1. `./script/plugin install git://github.com/openrain/action_mailer_tls.git -r 'tag v1.0.0'`
   2. Copy vendor/plugins/action_mailer_tls/sample/smtp_gmail.rb to config/
   3. Copy vendor/plugins/action_mailer_tls/sample/mailer.yml.sample to config/
   4. Update the configuration file with your settings
