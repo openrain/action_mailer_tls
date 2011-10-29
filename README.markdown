@@ -36,7 +36,7 @@ Testing it out
 --------------
 
   1. `./script/generate mailer Notifier hello_world`
-  2. Add the following lines to config/environments/development.rb 
+  2. Add the following lines to config/environments/development.rb
     * config.action_mailer.raise_delivery_errors = true
     * config.action_mailer.perform_deliveries = true
     * config.action_mailer.delivery_method = :smtp
