@@ -4,6 +4,6 @@
 == 1.1.0 / 2009-02-10
     * Converted plugin into a Rubygem with a Rails generator.
     * Updated README with installation details.
- 
+
 == 1.0.0 / 2009-02-09
   * Tagging original SVN migration.

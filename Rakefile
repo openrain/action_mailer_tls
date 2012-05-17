@@ -28,7 +28,7 @@ end
 #   t.pattern = 'test/**/*_test.rb'
 #   t.verbose = false
 # end
-# 
+#
 # begin
 #   require 'rcov/rcovtask'
 #   Rcov::RcovTask.new do |t|
